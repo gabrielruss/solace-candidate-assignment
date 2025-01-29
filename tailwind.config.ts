@@ -13,6 +13,11 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      // ADJUSTMENT: for the styling, added a few colors from Solace branding
+      colors: {
+        primary: "#285e50", // dark green
+        black: "#101010",
+      },
     },
   },
   plugins: [],
